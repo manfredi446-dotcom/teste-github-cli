@@ -7,8 +7,24 @@ Este é um repositório de teste criado para demonstrar as capacidades do GitHub
 - [x] Criação de repositório
 - [x] Clone automático
 - [x] Adição de arquivos
-- [ ] Criação de issues
+- [x] Criação de issues
 - [ ] Criação de pull requests
+
+## Mais Exemplos de Comandos
+
+```bash
+# Trabalhar com issues
+gh issue create --title "Título" --body "Descrição"
+gh issue list
+gh issue view 1
+gh issue close 1
+
+# Trabalhar com pull requests
+gh pr create --title "Título" --body "Descrição"
+gh pr list
+gh pr view 1
+gh pr merge 1
+```
 
 ## Comandos Utilizados
 
